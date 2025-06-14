@@ -1,5 +1,6 @@
 
 import { ArrowRight, Heart, Users, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const handleWaitlistClick = () => {
@@ -57,10 +58,13 @@ const Hero = () => {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
             </button>
             
-            <button className="group bg-white/10 backdrop-blur-sm border border-white/30 text-white font-inter font-semibold px-8 py-4 rounded-full text-lg hover:bg-white/20 transition-all duration-300 inline-flex items-center gap-3">
+            <Link 
+              to="/learn-more"
+              className="group bg-white/10 backdrop-blur-sm border border-white/30 text-white font-inter font-semibold px-8 py-4 rounded-full text-lg hover:bg-white/20 transition-all duration-300 inline-flex items-center gap-3"
+            >
               Learn More
               <Heart className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-            </button>
+            </Link>
           </div>
 
           {/* Trust indicators */}
