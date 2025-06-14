@@ -25,12 +25,12 @@ const StickyBottomCTA = () => {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden animate-fade-in">
-      <div className="bg-gradient-to-r from-primary to-primary/95 text-white p-4 shadow-2xl border-t border-white/20">
+      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white p-4 shadow-2xl border-t border-white/20">
         <button
           onClick={handleWaitlistClick}
-          className="w-full bg-accent text-dark-gray font-inter font-semibold py-3 px-6 rounded-full text-lg hover:bg-accent/90 transition-all duration-300 flex items-center justify-center gap-3"
+          className="w-full bg-amber-400 text-slate-900 font-inter font-semibold py-3 px-6 rounded-full text-lg hover:bg-amber-300 transition-all duration-300 flex items-center justify-center gap-3"
         >
-          🚀 Join Waitlist Now
+          Join Waitlist Now
           <ArrowRight className="w-5 h-5" />
         </button>
       </div>
