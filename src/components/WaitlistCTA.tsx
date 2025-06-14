@@ -1,5 +1,4 @@
-
-import { ArrowRight, Sparkles, Gift } from 'lucide-react';
+import { ArrowRight, Sparkles, Gift, CheckCircle, DollarSign } from 'lucide-react';
 
 const WaitlistCTA = () => {
   const handleWaitlistClick = () => {
