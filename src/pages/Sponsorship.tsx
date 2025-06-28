@@ -153,7 +153,7 @@ const Sponsorship = () => {
                   <Mail className="w-5 h-5" />
                   Contact: b2b@peradel.com
                 </a>
-                <span className="text-white/80">Be the first to prove love > profits</span>
+                <span className="text-white/80">Be the first to prove love {">"} profits</span>
               </div>
             </div>
 
