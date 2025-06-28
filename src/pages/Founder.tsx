@@ -1,7 +1,7 @@
 
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Quote } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Quote } from 'lucide-react';
+import Navbar from '../components/Navbar';
 
 const Founder = () => {
   return (
@@ -13,15 +13,7 @@ const Founder = () => {
       </Helmet>
       
       <div className="min-h-screen bg-slate-50">
-        {/* Header */}
-        <header className="bg-white shadow-sm">
-          <div className="container mx-auto px-4 py-4">
-            <Link to="/" className="inline-flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors">
-              <ArrowLeft className="w-5 h-5" />
-              Back to Home
-            </Link>
-          </div>
-        </header>
+        <Navbar />
 
         {/* Main Content */}
         <main className="container mx-auto px-4 py-12">

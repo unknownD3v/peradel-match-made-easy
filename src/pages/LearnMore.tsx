@@ -1,9 +1,13 @@
+
 import { ArrowRight, CheckCircle, DollarSign, Heart, Lock, Shield, Star, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const LearnMore = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-50 font-inter">
+      <Navbar />
+      
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
         <div className="container mx-auto px-4">

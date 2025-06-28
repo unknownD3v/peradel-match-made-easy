@@ -37,6 +37,22 @@ const Footer = () => {
             </div>
           </div>
           
+          {/* Business Content */}
+          <div className="space-y-4">
+            <h3 className="font-playfair text-lg font-semibold">Business</h3>
+            <div className="space-y-2">
+              <Link to="/sponsorship" className="font-inter text-gray-300 hover:text-accent transition-colors block">
+                Sponsorship
+              </Link>
+              <Link to="/industry-analysis" className="font-inter text-gray-300 hover:text-accent transition-colors block">
+                Industry Analysis
+              </Link>
+              <Link to="/open-letters" className="font-inter text-gray-300 hover:text-accent transition-colors block">
+                Open Letters
+              </Link>
+            </div>
+          </div>
+          
           {/* Contact */}
           <div className="space-y-4">
             <h3 className="font-playfair text-lg font-semibold">Get in Touch</h3>
@@ -52,19 +68,6 @@ const Footer = () => {
                   <Instagram className="w-6 h-6" />
                 </a>
               </div>
-            </div>
-          </div>
-          
-          {/* Legal links */}
-          <div className="space-y-4">
-            <h3 className="font-playfair text-lg font-semibold">Legal</h3>
-            <div className="space-y-2">
-              <a href="#" className="font-inter text-gray-300 hover:text-accent transition-colors block">
-                Terms of Use
-              </a>
-              <a href="#" className="font-inter text-gray-300 hover:text-accent transition-colors block">
-                Privacy Policy
-              </a>
             </div>
           </div>
         </div>
